@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Midhun's page</title>
+    <link rel="icon" type="image/x-icon" href="delivery-boy.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="top-container">
+      <img class="top-cloud" src="cloud.png">
+
+      <h1>I'm Midhun.</h1>
+      <h2 class="head2">A Common Man</h2>
+
+      <img class="bottom-cloud" src="cloud.png">
+      <img  src="mountain.png">
+
+
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+        <img class="profilepic" src="boby1.jpg" alt="image of the person">
+        <h2>Hello.</h2>
+        <p>My name is Midhun Das L ,I am a science enthusiast and morethan that I'm lazy.</p>
+      </div>
+      <hr>
+      <div class="skills">
+        <h2 style="padding-bottom:30px">My Skills.</h2>
+        <div class="skill-row">
+          <img class="mind" src="creative-mind.png" alt="">
+          <h3>1.Creating ideas</h3>
+          <p>One of my biggest and my favourite skill is making myself diving into the deep seas of technologies and get shored with ideas created from those technologies  .</p>
+        </div>
+        <div class="skill-row">
+          <img class="code" src="coding.png" alt="">
+          <h3 style="padding-right: 300px">2.Coding</h3>
+          <p>My next notable skill is in coding , I won't say say that i am very good at coding but i would say that one day i will be the best coder.</p>
+        </div>
+      </div>
+      <hr>
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>Watch me grow and florish.</h3>
+        <p style="padding-bottom:40px;">Want to share your ideas or help me in improving my ideas, then please don't
+          hesitate to contact me.</p>
+        <a class="btn" href="mailto:midhundas996@gmail.com">CONTACT ME</a>
+      </div>
+    </div>
+
+
+    <div class="bottom-container">
+    
+      <p style="padding-top:30px">© 2022 Midhun.</p>
+    </div>
+<script>
+  window.watsonAssistantChatOptions = {
+      integrationID: "f77e4c09-ce62-4506-be2d-baf0cab551e7", // The ID of this integration.
+      region: "eu-gb", // The region your integration is hosted in.
+      serviceInstanceID: "c78eb664-4057-4709-85c2-74853dcc9777", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js"
+    document.head.appendChild(t);
+  });
+</script>
+
+  </body>
+</html>
